@@ -1,0 +1,19 @@
+{
+  "name": "Doctor",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "patients": {
+      "type": "hasAndBelongsToMany",
+      "model": "Patient",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

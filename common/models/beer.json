@@ -1,0 +1,20 @@
+{
+  "name": "Beer",
+  "base": "Beverage",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "vol": {
+      "type": "number"
+    },
+    "style": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

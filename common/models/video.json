@@ -1,0 +1,21 @@
+{
+  "name": "Video",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "tags": {
+      "type": "hasAndBelongsToMany",
+      "model": "Tag",
+      "foreignKey": "",
+      "through": "TagLink",
+      "polymorphic": "taggable"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Stronghold",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "soldiers": {
+      "type": "hasMany",
+      "model": "Soldier",
+      "foreignKey": "",
+      "polymorphic": "defensible"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

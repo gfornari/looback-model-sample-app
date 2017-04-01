@@ -1,0 +1,19 @@
+{
+  "name": "Account",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "suppliers": {
+      "type": "hasOne",
+      "model": "Supplier",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

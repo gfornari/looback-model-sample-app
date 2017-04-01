@@ -1,0 +1,20 @@
+{
+  "name": "Author",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "pictures": {
+      "type": "hasOne",
+      "model": "Picture",
+      "foreignKey": "",
+      "polymorphic": "imageable"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
