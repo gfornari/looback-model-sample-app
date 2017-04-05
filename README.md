@@ -1,4 +1,4 @@
-# looback-model-sample-app
+# loopback-model-sample-app
 > Simple Loopback application with some relations between models.
 
 This simple application defines some models and some relations between them in order to have a ready-to-use Loopback application along with the Loopback component [loopback-component-model-diagram], which generates a diagram of your models. 
