@@ -23,4 +23,4 @@ You will get this image:
 
 ![Model relation diagram][logo]
 
-[logo]: diagram.png "[Model relation diagram"
+[logo]: diagram.png "Model relation diagram"
